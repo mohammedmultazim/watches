@@ -1,0 +1,25 @@
+body
+{
+    background-color: rgb(206, 192, 172);
+    font-family: 'Dancing Script', cursive;
+}
+
+.fa-mobile{
+    position: absolute;
+    top: 12.6%;
+    left: 5.0%;
+}
+
+.fa-envelope{
+    position: absolute;
+    top: 18.6%;
+    left: 5.0%;
+}
+#num{
+    position: relative;
+}
+
+#phone{
+    padding-left: 20px;
+    height: 20px;
+}

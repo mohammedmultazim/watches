@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: end;
+    height: 100vh;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 40px 0px;
+}
+
+#left{
+    width: 60%;
+    display: flex;
+}
+
+#right{
+    width: 40%;
+    display: flex;
+    border-left: 2px solid coral;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color:dimgray;
+    display: block;
+    padding: 3px;
+
+}
+
+li{
+    color:rgb(170, 154, 130);
+}
+
+h5{
+    color: darkslategrey;
+    margin-top: 10px;
+}
+
+#fbMenu{
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#fbDrop{
+    position: relative;
+}
+
+#fbDrop:hover #fbMenu{
+    display: block;
+}

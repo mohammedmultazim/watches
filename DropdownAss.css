@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:deepskyblue;
+}
+
+nav{
+    background-color: crimson;
+}
+
+#content{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color:antiquewhite;
+    padding: 40px;
+    display: block;
+}
+
+a:hover{
+    background-color: antiquewhite;
+    color: crimson;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+
+.drop:hover .menu{
+    display: block;
+}
+
+
+h1{
+    display: block;
+    color: black;
+    text-align: center;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,43 @@
+nav
+{
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-top: 20px;
+} 
+
+img{
+    width: 230px;
+    height: 140px;
+}
+
+#vehicle{
+    display: flex;
+    gap: 100px;
+    padding: 55px;
+}
+
+#lin
+{
+    display:flex;
+    padding: 55px;
+}
+
+body
+{
+    background-color:rgb(234, 179, 207);
+    margin: 0;
+}

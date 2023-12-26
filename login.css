@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main > form{
+    /* background-color: lightsalmon; */
+    width: 20%;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin-top: 15px;
+    padding: 20px 40px;
+}
+
+main > form > #img-cont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; 
+}
+
+main > form > div > img{
+    width: 50%;
+    /* height: 100px; */
+    /* margin-left: 24%;*/
+}
+
+input,button,a{
+    display:block;
+}
+
+main > form > input{
+    width: 95%;
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding: 5px;
+}
+
+main > form > button{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(125, 175, 233);
+    border: none;
+    border-radius: 7px;
+    color:whitesmoke;
+    font-size: 15px;
+}
+
+main > form > a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* display: flex ; */
+    /* margin-left: 30px; */
+  
+}
+
+main > form > #pos{
+    margin-top: 30px;
+    position: relative;
+    height: 20px;
+}
+
+main > form > #pos > h3{
+    position: absolute;
+    top: -150%;
+    left: 45%;
+    background-color: azure;
+    font-size: 20px;
+}

@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:wheat;
+    width: 8%;
+    height: 100vh;
+}
+
+#cont{
+    list-style: none;
+    background-color: rgb(101, 243, 229);
+    margin: 10px;
+    padding: 10px;
+}
+
+a{
+    color:rgb(127, 63, 42);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+a:hover{
+    background-color: rgb(196, 70, 70);
+    color:rgb(237, 233, 239);
+}
+
+
+
+/* =======below the mobile drop down
+#menu{
+    background-color: rgb(127, 238, 203);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: none;
+} */
+
+
+/* ========right side drop down */
+
+#menu{
+    background-color: rgb(127, 238, 203);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 12%;
+    left: 100%;
+    display: none;
+} 
+
+#drop{
+    position: relative;
+}
+
+
+#drop:hover #menu{
+    display: block;
+}
+
+
+#samMenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color:beige;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#samDrop{
+    position: relative;
+}
+
+#samDrop:hover #samMenu{
+    display: block;
+}
+
+
+#iMenu{
+    list-style: none;
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 17%;
+    left: 100%;
+    display:none;
+}
+
+#iDrop{
+    position: relative;
+}
+
+#iDrop:hover #iMenu{
+    display: block;
+}

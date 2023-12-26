@@ -1,0 +1,155 @@
+h1{
+margin-left: 41%;
+font-size: 40px;
+color: rgb(69, 142, 167);
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: antiquewhite;
+    width: 13%;
+    height: 100vh;
+}
+
+#cont{
+    list-style: none;
+    background-color: black;
+    margin: 10px;
+    padding:10px;
+    display: block;
+}
+
+a{
+    color:wheat;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+    display: block;
+}
+
+a:hover{
+    background-color: moccasin;
+    color: black;
+}
+
+#nvMenu{
+    background-color:crimson;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#nvDrop{
+    position: relative;
+}
+
+#nvDrop:hover #nvMenu{
+    display: block;
+}
+
+#bMenu{
+    list-style: none;
+    background-color: tomato;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1%;
+    left: 100%;
+    display: none;
+}
+
+#bDrop{
+    position: relative;
+}
+
+#bDrop:hover #bMenu{
+    display: block;
+}
+
+#tMenu{
+    background-color: tomato;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1%;
+    left: 100%;
+    display: none;
+}
+
+#tDrop{
+    position: relative;
+}
+
+#tDrop:hover #tMenu{
+    display: block;
+}
+
+
+#vMenu{
+    background-color: crimson;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1%;
+    left: 100%;
+    display: none;
+}
+
+#vDrop{
+    position: relative;
+}
+
+#vDrop:hover #vMenu
+{
+    display: block;
+}
+
+#fMenu{
+    background-color: tomato;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 66%;
+    left: 100%;
+    display: none;
+}
+
+#dDrop
+{
+    position: relative;
+}
+#fDrop:hover #fMenu{
+    display: block;
+}
+
+#dMenu{
+    background-color: crimson;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1%;
+    left: 100%;
+    display: none;
+}
+
+#dDrop{
+    position: relative;
+}
+
+#dDrop:hover #dMenu{
+    display: block;
+}
